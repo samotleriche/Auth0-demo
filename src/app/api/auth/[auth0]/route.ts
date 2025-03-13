@@ -26,7 +26,7 @@ export const GET = handleAuth({
     returnTo: "/",
   }),
   callback: handleCallback({
-    redirectUri: "http://localhost:3000/profile",
+    redirectUri: "/profile",
   }),
   // callback: async (req: any, ctx: any) => {
   //   const url = new URL(req.url || "");
