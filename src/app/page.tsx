@@ -1,5 +1,5 @@
 import { HeroBanner } from "@/components/hero-banner";
-import { Auth0Features } from "@/components/auth0-features";
+// import { Auth0Features } from "@/components/auth0-features";
 
 const Home = () => {
   return (
