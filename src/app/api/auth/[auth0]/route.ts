@@ -25,9 +25,9 @@ export const GET = handleAuth({
   logout: handleLogout({
     returnTo: "/",
   }),
-  callback: handleCallback({
-    redirectUri: "/profile",
-  }),
+  // callback: handleCallback({
+  //   redirectUri: "/profile",
+  // }),
   // callback: async (req: any, ctx: any) => {
   //   const url = new URL(req.url || "");
   //   const errorDescription = url.searchParams.get("error_description");
